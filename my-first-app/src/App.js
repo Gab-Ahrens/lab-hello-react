@@ -2,8 +2,8 @@ import icon1 from '../src/images/icon1.png';
 import icon2 from '../src/images/icon2.png';
 import icon3 from '../src/images/icon3.png';
 import icon4 from '../src/images/icon4.png';
-import ironlogo from '../src/images/ironhack-logo-xs.png';
-import ironmenu from '../src/images/menu-top-xs.png';
+import ironhacklogo from '../src/images/ironhack-logo-xs.png';
+import ironhackmenu from '../src/images/menu-top-xs.png';
 import './App.css';
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <header className="header">
         <div className="top">
-          <img className="iron" src={ironlogo} alt="logo" />
-          <img className="ironmenu" src={ironmenu} alt="menu" />
+          <img className="iron" src={ironhacklogo} alt="logo" />
+          <img className="ironmenu" src={ironhackmenu} alt="menu" />
         </div>
 
         <h1>Say hello to ReactJS</h1>
